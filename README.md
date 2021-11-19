@@ -34,4 +34,3 @@ Cette partie vous permettras de lancer des programmes dans des conteneurs et de 
 ## 5-docker-compose
 
 Cette partie vous fera découvrir l'outil **docker-compose** qui facilite grandement l'utilisation de docker en paramétrant les étapes de build et d'exécution de conteneurs au sein d'un même fichier de configuration au format yaml: **docker-compose.yaml**.
-
