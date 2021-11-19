@@ -58,7 +58,7 @@ Ainsi les grandes entreprises comme Google, Nvidia ou Ubuntu mettent à disposit
 
 [schéma](https://docs.docker.com/engine/images/architecture.svg)
 
-## References
+## Références
 
 [Qu'est-ce que Docker ? - AWS](https://aws.amazon.com/fr/docker/)
 [docker hub - hub.docker.com](https://hub.docker.com/)
