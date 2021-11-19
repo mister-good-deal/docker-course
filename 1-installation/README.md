@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 Cette partie explique comment installer docker sur un environnement Ubuntu.
 
