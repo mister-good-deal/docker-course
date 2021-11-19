@@ -40,4 +40,4 @@ Puis redémarrer l'ordinateur.
 
 ## Références
 
-[Install Docker Engine on Ubuntu - docker.com](https://docs.docker.com/engine/install/ubuntu/)
+- [Install Docker Engine on Ubuntu - docker.com](https://docs.docker.com/engine/install/ubuntu/)

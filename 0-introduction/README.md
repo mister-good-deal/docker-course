@@ -60,6 +60,6 @@ Ainsi les grandes entreprises comme Google, Nvidia ou Ubuntu mettent à disposit
 
 ## Références
 
-[Qu'est-ce que Docker ? - AWS](https://aws.amazon.com/fr/docker/)
-[docker hub - hub.docker.com](https://hub.docker.com/)
-[Docker architecture - docker.com](https://docs.docker.com/get-started/overview/#docker-architecture)
+- [Qu'est-ce que Docker ? - AWS](https://aws.amazon.com/fr/docker/)
+- [docker hub - hub.docker.com](https://hub.docker.com/)
+- [Docker architecture - docker.com](https://docs.docker.com/get-started/overview/#docker-architecture)

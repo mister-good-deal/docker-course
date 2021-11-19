@@ -117,6 +117,6 @@ Une fois l'image construite est disponible sur le système, on peut l'utliser da
 
 ## Références
 
-[Docker cheat sheet - gist.github.com](https://gist.github.com/jpchateau/4efb6ed0587c1c0e37c3#instructions-dockerfile)
-[Dockerfile reference - docker.com](https://docs.docker.com/engine/reference/builder/#/dockerfile-reference)
-[Dockerize PostgreSQL - docker.com](https://docs.docker.com/samples/postgresql_service/)
+- [Docker cheat sheet - gist.github.com](https://gist.github.com/jpchateau/4efb6ed0587c1c0e37c3#instructions-dockerfile)
+- [Dockerfile reference - docker.com](https://docs.docker.com/engine/reference/builder/#/dockerfile-reference)
+- [Dockerize PostgreSQL - docker.com](https://docs.docker.com/samples/postgresql_service/)
