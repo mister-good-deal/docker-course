@@ -68,6 +68,6 @@ N'oublions pas d'attacher ce conteneur au réseau `wordpress_network` avec l'opt
 
 On obtient donc la commande suivante: `docker run -v wordpress_data:/var/www/html -e WORDPRESS_DB_HOST=mysql_wordpress:3306 -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=wordpress -e WORDPRESS_DB_NAME=wordpress -p 8000:80 --network wordpress_network --rm --name wordpress wordpress`.
 
-Et voilà !
+**Et voilà !**
 
 Rendez-vous sur votre navigateur web à l'adresse `localhost:8000` pour utiliser votre application Wordpress.
