@@ -31,6 +31,6 @@ Cette partie vous permettra de construire une image docker en ligne de commande 
 
 Cette partie vous permettras de lancer des programmes dans des conteneurs et de les gérer (suppression, persistence, connexion en ligne de commande, ...).
 
-## Docker-compose
+## Docker compose
 
-Cette partie vous fera découvrir l'outil **docker-compose** qui facilite grandement l'utilisation de docker en paramétrant les étapes de build et d'exécution de conteneurs au sein d'un même fichier de configuration au format yaml: **docker-compose.yaml**.
+Cette partie vous fera découvrir l'outil **docker compose** qui facilite grandement l'utilisation de docker en paramétrant les étapes de build et d'exécution de conteneurs au sein d'un même fichier de configuration au format yaml: **docker-compose.yaml**.
