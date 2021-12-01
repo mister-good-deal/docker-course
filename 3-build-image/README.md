@@ -49,7 +49,6 @@ Enfin il peut y avoir des instructions type `EXPOSE` pour exposer un port au lan
 *Exemple de Dockerfile*
 
 ```Dockerfile
-# syntax=docker/dockerfile:1
 FROM ubuntu:20.04
 
 ARG DEBIAN_FRONTEND="noninteractive"
@@ -110,19 +109,19 @@ config_file=/etc/postgresql/${POSTEGRE_VERSION}/main/postgresql.conf
 
 Une fois que le Dockerfile est prêt, il faut construire l'image en ligne de commande: c'est l'étape du build.
 
-Pour consstruire une image il faut indiquer son emplacement et son tag de version à la commande `docker build`.
+Pour construire une image il faut indiquer son emplacement et son tag de version à la commande `docker build`.
 
-N'hésitez pas à exécuter `docker build help` pour bien comprendre les choix possibles.
+N'hésitez pas à exécuter `docker build --help` pour bien comprendre les choix possibles.
 
-La commande pour build le Dockerfile précédent serait par exemple: `docker build -t eg_postgresql .`. Le `.` va automatiquement chercher le fichier `Dockerfile` dans le système de fichier courant à l'endroit où on exécute la commande. Si le Dockerfile porte un autre nom comme par exemple `PostreSQL.Dockerfile` on aurait pu écrire `docker build -t eg_postgresql PostreSQL.Dockerfile`.
+La commande pour build le Dockerfile précédent serait par exemple: `docker build -t postgresql:14 .`. Le `.` va automatiquement chercher le fichier `Dockerfile` dans le système de fichier courant à l'endroit où on exécute la commande. Si le Dockerfile porte un autre nom comme par exemple `PostgreSQL.Dockerfile` on aurait pu écrire `docker build -t postgresql PostgreSQL.Dockerfile`.
 
 Et voilà, l'image est construite ! Pour la retrouver on peut maintenant exécuter `docker image ls` et vous la verrez dans la liste des images disponibles sur votre système.
 
 ## Exécuter l'image dans un conteneur
 
-Une fois l'image construite est disponible sur le système, on peut l'utliser dans un conteneur pour travailler dessus en l'appelant par son tag (ici `eg_postgresql`).
+Une fois l'image construite est disponible sur le système, on peut l'utliser dans un conteneur pour travailler dessus en l'appelant par son tag (ici `postgresql:14`).
 
-*Exemple:* `docker run --rm -P --name pg_test eg_postgresql`
+*Exemple:* `docker run --rm -P --name pg_test postgresql:14`
 
 ## Références
 

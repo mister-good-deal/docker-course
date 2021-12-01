@@ -41,11 +41,11 @@ Server: Docker Engine - Community
   GitCommit:        de40ad0
 ```
 
-Comme dans tous les menus de commandes qui se respectent, à chaque niveau de la commande on peut terminer avec le mot clé `help` pour découvrir l'utilisation et les choix possibles de la commande.
+Comme dans tous les menus de commandes qui se respectent, à chaque niveau de la commande on peut terminer avec l'option `--help` pour découvrir l'utilisation et les choix possibles de la commande.
 
 *Exemple:*
 
-`docker help`
+`docker --help`
 
 ```
 Usage:  docker [OPTIONS] COMMAND
@@ -139,7 +139,7 @@ Le système de "Management Commands" permet de mieux comprendre ce que va faire 
 
 Il classe les commandes par catégories comme **image** ou **container** qui sont des mots clés à rajouter après le mot clé `docker` dans la commande.
 
-Ainsi si on veut lister toutes les images docker du systèmes, on utilisera `docker image ls`. Si on veut lister tous les conteneurs actifs du système on utilisera `docker container ls`. Si on veut savoir les actions possibles dans une catégories, il suffira d'indiquer `docker [catégorie] help` qui listera les options possibles.
+Ainsi si on veut lister toutes les images docker du système, on utilisera `docker image ls`. Si on veut lister tous les conteneurs actifs du système on utilisera `docker container ls`. Si on veut savoir les actions possibles dans une catégories, il suffira d'indiquer `docker [catégorie] --help` qui listera les options possibles.
 
 *Liste des catégories de commandes*
 

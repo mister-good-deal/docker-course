@@ -14,7 +14,7 @@ Pour celà on peut utiliser le script suivant:
 ```sh
 cd ~
 wget https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-linux-x86_64
-mkdir -P ~/.docker/cli-plugins
+mkdir -p ~/.docker/cli-plugins
 mv docker-compose-linux-x86_64 ~/.docker/cli-plugins/docker-compose
 sudo chmod +x ~/.docker/cli-plugins/docker-compose
 

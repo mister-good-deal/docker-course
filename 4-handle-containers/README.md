@@ -6,9 +6,9 @@ Cette partie vous permettras de lancer des programmes dans des conteneurs et de 
 
 Ici nous allons lancer un conteneur qui permettra d'utiliser Wordpress sur la machine hôte.
 
-Dans la partie précédente nous avons vu comment créer un conteneur MySQL avec une base de donnée persitante.
+Dans la partie précédente nous avons vu comment créer un conteneur PostgreSQL avec une base de données persitante.
 
-Nous utiliserons ici cette base de données et le conteneur Wordpress utilisera le conteneur MySQL pour stocker les informations persisatntes néscessaires.
+Nous utiliserons ici une base de données MySQL qui est compatible avec Wordpress et le conteneur Wordpress utilisera le conteneur MySQL pour stocker les informations persitantes néscessaires.
 
 ### Volumes
 
@@ -34,7 +34,7 @@ On peut voir la liste des réseaux disponibles avec la commande `docker network 
 
 Nous pouvons maintenant lancer le conteneur MySQL avec les volumes persistants qu'on a précédemment créés, on peut les voir avec la commande `docker volume ls`.
 
-Tout d'abord récupérons la dernière image Wordpress officielle publiée avec la commmande `docker pull mysql:latest`.
+Tout d'abord récupérons la dernière image MySQL officielle publiée avec la commmande `docker pull mysql:latest`.
 
 Pour lier les volumes on utilise l'option `-v host-volume:container-volume` de la commande `docker run`.
 
