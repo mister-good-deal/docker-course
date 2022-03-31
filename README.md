@@ -2,7 +2,7 @@
 
 Ceci est un cours d'introduction à **docker** qui vous permettra de découvrir son utilité et son fonctionnement au travers de différents exemples.
 
-Il y a 5 modules à effectuer dans l'ordre qui traitent des sujets suivants :
+Il y a 6 modules à effectuer dans l'ordre qui traitent des sujets suivants :
 
 - 0-introduction
 - 1-installation
@@ -10,6 +10,7 @@ Il y a 5 modules à effectuer dans l'ordre qui traitent des sujets suivants :
 - 3-build-image
 - 4-handle-containers
 - 5-docker-compose
+- 6-docker-gpu
 
 ## Introduction
 
