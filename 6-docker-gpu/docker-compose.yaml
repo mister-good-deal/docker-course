@@ -1,0 +1,7 @@
+version: "3.9"
+    
+services:
+  test:
+    image: nvidia/cuda:11.6-base
+    command: nvidia-smi
+    runtime: nvidia
